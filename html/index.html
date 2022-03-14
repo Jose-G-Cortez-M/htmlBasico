@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--Idioma de l pagina-->
+<html lang="es">
+
+<head>
+    <!--Meta datos que indican los caracteres usados en el desarrollo de la pagina web indistinto del idioma-->
+    <meta charset="UTF-8">
+    <!--Compativilidad con navegadores Internet Explorer y Microsoft edge-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--La escala que usa el navegador para presentar la pagina-->
+    <meta name="viewport" content="ie=edge width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>TÍTULO 5</title>
+</head>
+
+<body>
+    <!--Titulo-->
+    <h1>Título Principal</h1>
+    <!--Titulo-->
+    <h2>Título uno</h2>
+    <!--Subyiyulo-->
+    <h3>Subtitulo uno</h3>
+    <!--Parrafo-->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus adipisci quo asperiores sunt aliquid qui
+        accusantium sequi vitae commodi esse ab in, <strong>html básico</strong> possimus temporibus eligendi inventore
+        dolorem, voluptas, fugit itaque.
+    </p>
+    <h2>Título dos</h2>
+    <h3>Subtitulo uno</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus adipisci quo asperiores sunt aliquid qui
+        accusantium sequi vitae commodi esse ab in, possimus temporibus eligendi inventore dolorem, voluptas, fugit
+        itaque.
+    </p>
+    <h2>Título tres</h2>
+    <h3>Subtitulo uno</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus adipisci quo asperiores sunt aliquid qui
+        accusantium sequi vitae commodi esse ab in, possimus temporibus eligendi inventore dolorem, voluptas, fugit
+        itaque.
+    </p>
+    <h3>Subtitulo dos</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus adipisci quo asperiores sunt aliquid qui
+        accusantium sequi vitae commodi esse ab in, possimus temporibus eligendi inventore dolorem, voluptas, fugit
+        itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Repudiandae minima beatae minus unde
+        tempore eveniet sed laudantium deserunt quas consequuntur cum, fuga hic corporis, veritatis doloribus, omnis
+        obcaecati labore. Nisi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et deserunt corrupti animi
+        cumque, debitis aspernatur in, dolorem ipsa atque magni esse incidunt iure pariatur neque dolore maiores velit
+        doloribus numquam?
+    </p>
+    <!--Seccion es para agregar algo referente a la misma lectura-->
+    <section>
+        <h2>Fútbol</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic iste ducimus quibusdam numquam cumque minima
+            sunt quos nulla. Quibusdam quis in laboriosam tenetur veritatis quas reiciendis excepturi cumque architecto
+            praesentium.
+        </p>
+    </section>
+    <!--Es para agregar algo diferente a la lectura con autonomia-->
+    <article>
+        <h2>Noticias</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea aperiam vel consequuntur rem,
+            <cite>presidente</cite> provident dolor ullam corporis sint totam numquam debitis repellat illum iste
+            voluptatibus earum nam harum natus nobis.</p>
+    </article>
+
+    <section>
+        <!--Listas-->
+        <!--Ul listas de articulos sin orden-->
+        <ul>
+            <!--Lista de elementos li enumerada-->
+            <li>Dato uno</li>
+            <li>Dato dos</li>
+            <li>Dato tres</li>
+            <li>Dato cuatro</li>
+            <li>Dato cinco</li>
+
+        </ul>
+        <!--ol Listas ordenadas-->
+
+        <ol>
+            <li>Dato uno</li>
+            <li>Dato dos</li>
+            <li>Dato tres</li>
+            <li>Dato cuatro</li>
+            <li>Dato cinco</li>
+        </ol>
+        <!--Tablas-->
+        <table>
+            <!--Encabezados de la tabla-->
+            <thead>
+                <!--th encabezado de la tabla-->
+                <tr>
+                    <th>Nombre</th>
+                    <th>Ciudad</th>
+                    <th>Edad</th>
+                </tr>
+            </thead>
+            <!--Datos de la tabla tbody-->
+            <tbody>
+                <!--celdas de la tabla-->
+                <tr>
+                    <td>Jose</td>
+                    <td>Quito</td>
+                    <td>31 años</td>
+                </tr>
+                <tr>
+                    <td>Joss</td>
+                    <td>Guayaquil</td>
+                    <td>26 años</td>
+                </tr>
+                <tr>
+                    <td>Dianita</td>
+                    <td>Quito</td>
+                    <td>28 años</td>
+                </tr>
+                <tr>
+                    <td>Elvis</td>
+                    <td>Quito</td>
+                    <td>26 años</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+    <!--Formularios-->
+
+    <section>
+        <form action="archivo.php">
+            <!--Contenedor generico-->
+            <div> 
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div> 
+                <!--id identificador del elemento con la base de datos
+                type define el tipo de campo input del formulario name define el nombre con el cual se lo va a identificar en el formulario for establece una relacion con los elementos del formulario-->
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" placeholder="apellido materno">
+            </div>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" maxlength="10" minlength="10"  id="telefono">
+            </div>
+            <div>
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña" name="contraseña" minlength="8">
+            </div>
+
+            <div>
+                <label for="genero">Genero</label>
+                <input type="radio" name="genero" id="hombre">HOMBRE
+                <input type="radio" name="genero" id="mujer">MUJER
+            </div>
+            <br>
+            <div>
+                <label for="mesaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="4"></textarea>
+            </div>
+
+            <div>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad">
+            </div>
+            <br>
+            <div>
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+
+            <div>
+                <label for="selecmul">Seleccionar un materias</label>
+                <select name="selecmul">
+                    <option value="Calculo1">Calculo 1</option>
+                    <option value="Calculo2">Calculo 2</option>
+                    <option value="Calculo3">Calculo 3</option>
+                    <option value="Calculo4">Calculo 4</option>
+                    <option value="Calculo5">Calculo 5</option>
+                    <option value="Calculo6">Calculo 6</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <!--Crea un objeto en base a lo que se desea y en el leguaje requerido-->
+                <input type="button" value="Enviar" >
+                <!--Envia informacion-->
+                <input type="submit" value="Enviar" >
+                <input type="color">
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <!--Enlaces e imagenes-->
+        <!--Los enlaces comunican un punto con el otro-->
+        <!--Enlaces relativos-->
+        <a href="index_dos.html"></a>
+        <!--Rutas Absolutas-->
+        <a href="http://" target="_blank"></a>
+
+        <!--Imagenes-->
+        <img src="img/agua.jpg" width="500" alt="agua">
+
+        <br>
+        <a href="img/estrellas-gif.gif">Ver imagen</a>
+
+    </section>
+
+
+    <!--Pie de página-->
+    <footer>
+        Página creada por JC 2022
+    </footer>
+
+</body>
+
+</html>
